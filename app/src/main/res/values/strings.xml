@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">mirbank</string>
     <string name="armenian_dram">1)Armenian dram</string>
-    <string name="update_text">update</string>
+    <string name="update_text">update </string>
     <string name="belarusian_ruble">2)Belarusian ruble</string>
     <string name="tajikistani_somoni">7)Tajikistani somoni</string>
     <string name="kyrgyzstani_som">6)Kyrgyzstani som</string>
@@ -15,4 +15,11 @@
     <string name="update">Update</string>
     <string name="ruble_icon">\u20BD</string>
     <string name="armenian_icon">֏</string>
+    <string name="belarus_icon">Br</string>
+    <string name="vietnamese_icon">\u20AB</string>
+    <string name="tenge_icon">\u20B8</string>
+    <string name="cuban_peso_icon">\u20B1</string>
+    <string name="kyrgyz_som_icon">c\u0332</string>
+    <string name="tajik_somoni_icon">с.</string>
+    <string name="uzbek_sum_icon">Sʻ</string>
 </resources>

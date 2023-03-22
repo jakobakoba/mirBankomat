@@ -48,18 +48,18 @@
             android:background="@drawable/table_border">
 
 
-
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="2"
                 android:text="@string/armenian_dram" />
+
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                >
+                android:gravity="center">
+
                 <TextView
                     android:id="@+id/curr_dram_ruble"
                     android:layout_width="wrap_content"
@@ -67,6 +67,7 @@
 
                     android:gravity="center"
                     android:text="@string/update_text" />
+
                 <TextView
 
                     android:layout_width="wrap_content"
@@ -80,19 +81,20 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                >
-            <TextView
-                android:id="@+id/curr_ruble_dram"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/update_text" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/armenian_icon" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_ruble_dram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/armenian_icon" />
             </LinearLayout>
         </TableRow>
 
@@ -107,21 +109,46 @@
                 android:layout_weight="2"
                 android:text="@string/belarusian_ruble" />
 
-            <TextView
-                android:id="@+id/curr_belarus_ruble"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_ruble_belarus"
+                <TextView
+                    android:id="@+id/curr_belarus_ruble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_ruble_belarus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/belarus_icon" />
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -136,21 +163,46 @@
                 android:layout_weight="2"
                 android:text="@string/vietnamese_dong" />
 
-            <TextView
-                android:id="@+id/curr_vietnam_ruble"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_ruble_vietnam"
+                <TextView
+                    android:id="@+id/curr_vietnam_ruble"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_ruble_vietnam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/vietnamese_icon" />
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -165,21 +217,45 @@
                 android:layout_weight="2"
                 android:text="@string/kazakhstani_tenge" />
 
-            <TextView
-                android:id="@+id/curr_tenge_rub"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_rub_tenge"
+                <TextView
+                    android:id="@+id/curr_tenge_rub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_rub_tenge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tenge_icon" />
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -194,21 +270,45 @@
                 android:layout_weight="2"
                 android:text="@string/cuban_peso" />
 
-            <TextView
-                android:id="@+id/curr_cuban_rub"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/cur_rub_cuban"
+                <TextView
+                    android:id="@+id/curr_cuban_rub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/cur_rub_cuban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/cuban_peso_icon" />
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -223,21 +323,45 @@
                 android:layout_weight="2"
                 android:text="@string/kyrgyzstani_som" />
 
-            <TextView
-                android:id="@+id/curr_kyrgyz_rub"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_rub_kyrgyz"
+                <TextView
+                    android:id="@+id/curr_kyrgyz_rub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_rub_kyrgyz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/kyrgyz_som_icon" />
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -252,21 +376,46 @@
                 android:layout_weight="2"
                 android:text="@string/tajikistani_somoni" />
 
-            <TextView
-                android:id="@+id/curr_tajik_rub"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_rub_tajik"
+                <TextView
+                    android:id="@+id/curr_tajik_rub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_rub_tajik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/tajik_somoni_icon" />
+
+            </LinearLayout>
         </TableRow>
 
         <TableRow
@@ -281,21 +430,45 @@
                 android:layout_weight="2"
                 android:text="@string/uzbekistani_sum" />
 
-            <TextView
-                android:id="@+id/curr_uzbek_rub"
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
 
-            <TextView
-                android:id="@+id/curr_rub_uzbek"
+                <TextView
+                    android:id="@+id/curr_uzbek_rub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ruble_icon" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:text="@string/update_text" />
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/curr_rub_uzbek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/update_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/uzbek_sum_icon" />
+            </LinearLayout>
         </TableRow>
 
 
