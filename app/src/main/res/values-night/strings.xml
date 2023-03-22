@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="armenian_dram">Armenian dram</string>
+    <string name="update_text">update</string>
+    <string name="belarusian_ruble">Belarusian ruble</string>
+    <string name="tajikistani_somoni">Tajikistani somoni</string>
+    <string name="kyrgyzstani_som">Kyrgyzstani som</string>
+    <string name="cuban_peso">Cuban peso</string>
+    <string name="kazakhstani_tenge">Kazakhstani tenge</string>
+    <string name="vietnamese_dong">Vietnamese dong</string>
+    <string name="_1_foreign_currency_to_ruble">1 foreign currency to ruble</string>
+    <string name="_1_ruble_to_foreign_currency">1 ruble to foreign currency</string>
+    <string name="currency">Currency</string>
+    <string name="uzbekistani_sum">Uzbekistani sum</string>
+    <string name="update">Update</string>
+    <string name="armenian_icon">֏</string>
+</resources>

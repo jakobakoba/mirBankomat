@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">mirbank</string>
+    <string name="armenian_dram">1)Armenian dram</string>
+    <string name="update_text">update</string>
+    <string name="belarusian_ruble">2)Belarusian ruble</string>
+    <string name="tajikistani_somoni">7)Tajikistani somoni</string>
+    <string name="kyrgyzstani_som">6)Kyrgyzstani som</string>
+    <string name="cuban_peso">5)Cuban peso</string>
+    <string name="kazakhstani_tenge">4)Kazakhstani tenge</string>
+    <string name="vietnamese_dong">3)Vietnamese dong</string>
+    <string name="_1_foreign_currency_to_ruble">Ruble for 1 foreign currency</string>
+    <string name="_1_ruble_to_foreign_currency">Foreign currency for 1 ruble</string>
+    <string name="currency">Currency</string>
+    <string name="uzbekistani_sum">8)Uzbekistani sum</string>
+    <string name="update">Update</string>
+    <string name="ruble_icon">\u20BD</string>
+    <string name="armenian_icon">֏</string>
 </resources>

@@ -1,30 +1,37 @@
 package com.bor96dev.mirbank
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.bor96dev.mirbank.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: ExchangeRateViewModel
-    private lateinit var ratesTextView: TextView
+    private lateinit var binding: ActivityMainBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView(it.root) }
 
-        ratesTextView = findViewById(R.id.rates)
+
 
         viewModel = ViewModelProvider(this).get(ExchangeRateViewModel::class.java)
         viewModel.exchangeRates.observe(this) { exchangeRates ->
 
 
+            exchangeRates["Армянский драм"].let { binding.currDramRuble.text = it }
+            exchangeRates["Армянский драм"]?.let {
+
+                val result = 1.0 / it.toDouble()
+                val roundedResult = String.format("%.3f", result)
+                binding.currRubleDram.text = roundedResult
+            }
+
             val exchangeRatesString = StringBuilder()
             for ((currency, rate) in exchangeRates) {
                 exchangeRatesString.append(currency).append(": ").append(rate).append("\n")
             }
-            ratesTextView.text = exchangeRatesString.toString()
 
 
         }
@@ -32,3 +39,11 @@ class MainActivity : AppCompatActivity() {
         viewModel.fetchExchangeRates()
     }
 }
+
+
+
+
+
+
+
+
