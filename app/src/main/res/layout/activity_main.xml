@@ -64,6 +64,7 @@
                     android:id="@+id/curr_dram_ruble"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
 
                     android:gravity="center"
                     android:text="@string/update_text" />
@@ -87,6 +88,7 @@
                     android:id="@+id/curr_ruble_dram"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -119,7 +121,7 @@
                     android:id="@+id/curr_belarus_ruble"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -140,6 +142,7 @@
                     android:id="@+id/curr_ruble_belarus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -173,6 +176,7 @@
                     android:id="@+id/curr_vietnam_ruble"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -194,6 +198,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -227,6 +232,7 @@
                     android:id="@+id/curr_tenge_rub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -247,6 +253,7 @@
                     android:id="@+id/curr_rub_tenge"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -267,6 +274,7 @@
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
                 android:layout_weight="2"
                 android:text="@string/cuban_peso" />
 
@@ -297,9 +305,10 @@
                 android:gravity="center">
 
                 <TextView
-                    android:id="@+id/cur_rub_cuban"
+                    android:id="@+id/curr_rub_cuban"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -333,6 +342,7 @@
                     android:id="@+id/curr_kyrgyz_rub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -353,6 +363,7 @@
                     android:id="@+id/curr_rub_kyrgyz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -386,6 +397,7 @@
                     android:id="@+id/curr_tajik_rub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -406,6 +418,7 @@
                     android:id="@+id/curr_rub_tajik"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -440,6 +453,7 @@
                     android:id="@+id/curr_uzbek_rub"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -460,6 +474,7 @@
                     android:id="@+id/curr_rub_uzbek"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
                     android:gravity="center"
                     android:text="@string/update_text" />
 
@@ -479,7 +494,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/update"
+        android:text="@string/update_button_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
