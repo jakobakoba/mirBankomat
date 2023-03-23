@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.bor96dev.mirbank.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.math.roundToInt
 
 class MainActivity : AppCompatActivity() {
     private lateinit var viewModel: ExchangeRateViewModel
@@ -16,8 +17,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater).also { setContentView(it.root) }
-
-
 
         viewModel = ViewModelProvider(this)[ExchangeRateViewModel::class.java]
         viewModel.exchangeRates.observe(this) { exchangeRates ->
@@ -71,8 +70,14 @@ class MainActivity : AppCompatActivity() {
                 val roundedResult = String.format("%.3f", result)
                 binding.currRubUzbek.text = roundedResult
             }
-
         }
+
+        binding.equalsButtonFirstRow.setOnClickListener {
+            val input = binding.input1EditText.text.toString().toDoubleOrNull() ?: return@setOnClickListener
+            val result = ( input / 5.3).roundToInt()
+            binding.resultTextView.text = result.toString()
+        }
+
 
         binding.button.setOnClickListener {
             viewModel.fetchExchangeRates()

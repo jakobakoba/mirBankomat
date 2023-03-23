@@ -15,4 +15,6 @@ class ExchangeRateViewModel : ViewModel() {
             _exchangeRates.postValue(rates)
         }
     }
+
+
 }

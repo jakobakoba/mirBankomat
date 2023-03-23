@@ -12,7 +12,17 @@
     <string name="_1_ruble_to_foreign_currency">1 ruble to foreign currency</string>
     <string name="currency">Currency</string>
     <string name="uzbekistani_sum">Uzbekistani sum</string>
-    <string name="update">Update</string>
+    <string name="update_button_text">Update</string>
     <string name="armenian_icon">֏</string>
     <string name="belarus_icon">Br</string>
+    <string name="source_of_exchange_rates"><![CDATA[source ->]]></string>
+    <string name="foreign_first_input">foreign currency</string>
+    <string name="rate_textview">rate</string>
+    <string name="division_symbol">÷</string>
+    <string name="equals_sign">=</string>
+    <string name="ruble_result">Ruble result</string>
+    <string name="ruble_currency">ruble currency</string>
+    <string name="multiply_symbol">*</string>
+    <string name="fees_text">there may be fees when withdrawing money from the ATM.</string>
+    <string name="foreign_result">Foreign result</string>
 </resources>
