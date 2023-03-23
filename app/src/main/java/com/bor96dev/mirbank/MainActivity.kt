@@ -1,6 +1,7 @@
 package com.bor96dev.mirbank
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -72,13 +73,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        binding.equalsButtonFirstRow.setOnClickListener {
-            val input = binding.input1EditText.text.toString().toDoubleOrNull() ?: return@setOnClickListener
-            val result = ( input / 5.3).roundToInt()
-            binding.resultTextView.text = result.toString()
-        }
-
-
         binding.button.setOnClickListener {
             viewModel.fetchExchangeRates()
             val currentTime = System.currentTimeMillis()
@@ -91,8 +85,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
-
-
 
 
 

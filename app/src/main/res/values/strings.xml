@@ -23,12 +23,12 @@
     <string name="tajik_somoni_icon">с.</string>
     <string name="uzbek_sum_icon">Sʻ</string>
     <string name="source_of_exchange_rates"><![CDATA[source ->]]></string>
-    <string name="foreign_first_input">foreign currency</string>
+    <string name="foreign_first_input">Input foreign</string>
     <string name="rate_textview">rate</string>
     <string name="division_symbol">÷</string>
     <string name="equals_sign">=</string>
     <string name="ruble_result">Ruble result</string>
-    <string name="ruble_currency">ruble currency</string>
+    <string name="ruble_currency">Input ruble</string>
     <string name="multiply_symbol">*</string>
     <string name="fees_text">there may be fees when withdrawing money from the ATM.</string>
     <string name="foreign_result">Foreign result</string>
